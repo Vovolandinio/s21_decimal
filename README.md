@@ -1,6 +1,10 @@
 # s21_decimal
 
 ## Content
+1.[Information](#1-information)\
+2.[Functions and task](#2-functions-and-task)\
+3.[Goals](#3-goals)\
+4.[Build](#4-build)
 
 ## 1. Information
 In this project, I implemented the s21_decimal.h library in the C programming language. This library has the ability to work with the "decimal" type, which is not in the language standard. However, this type is critical. For financial calculations, for example, where calculation errors typical of floating point types are unacceptable.
@@ -117,13 +121,13 @@ Return value - code error:
 - 0 - OK
 - 1 - calculation error
 
-## 3.Goals
+## 3. Goals
 
 - [x] Understand low-level binary operations.
 - [x] To consolidate knowledge of structured programming.
 - [x] dive into the issues of internal representation of different types of data.
 
-## 4.Build
+## 4. Build
 `cd s21_decimal/src`\
 `make`\
 ![build](assets/build_example.gif)
